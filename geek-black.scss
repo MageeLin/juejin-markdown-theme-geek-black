@@ -8,10 +8,10 @@ $size-5: $size-base * 5;
 
 // 普通文本 font-size
 $font-size-base: 14px;
-$font-size-lg: $font-size-base + 4px;
-$font-size-md: $font-size-base + 2px;
-$font-size-sm: $font-size-base;
-$font-size-xs: $font-size-base - 2px;
+$font-size-lg: $font-size-base + 6px;
+$font-size-md: $font-size-base + 4px;
+$font-size-sm: $font-size-base + 2px;
+$font-size-xs: $font-size-base;
 
 // 标题文本 font-size
 $font-size-heading-1: ceil($font-size-base * 2.71);
@@ -97,7 +97,7 @@ $line-space: 22px;
     padding-top: $margin-padding-xs;
     padding-right: $margin-padding-lg + $size-4;
     padding-left: $margin-padding-xs;
-    line-height: $line-height-lg;
+    line-height: $line-height-md;
     font-size: $font-size-heading-2;
     transition: $transtion-1;
     &:hover {
